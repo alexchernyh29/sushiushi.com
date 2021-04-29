@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	border: solid 1px #E0E0E0;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.logo{
+	font-size: 20px;
+	padding: 1em;
+	margin: 0 10em;
+}
+.nav-link{
+	font-size: 20px;
+	padding: 1em;
+	margin: 0 10em;
+}
+.nav-link a{
+	margin: 0 1em;
+	text-decoration: none;
+	color: black;
+}
+.nav-link a:hover{
+	color: red;
+	border: solid 1px red;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.phone{
+	color: red;
+}
+.fa-phone{
+	color: grey;
+}
+
+
+.main{
+	width: 70%;
+	margin: 0 auto;
+}
+.cards{
+	display: flex;
+	
+}
+.cards .card{
+	margin: 0 1em;
+	cursor: pointer;
+}
+.cards .card:hover{
+	margin: 0 1em;
+	box-shadow: 0 0 5px red;
+}
+.login input{
+	border-style: solid;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-radius: 5px;
+	border-width: 1px;
+	text-align: center;
+	padding: 1rem;
+}
+.login{
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+	border: solid 1px #E9ECEF;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #E9ECEF;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.reg-link{
+	margin: 0 auto;
+	margin-top: 25px; 
+	margin-right: 45px; 
+}
+.login-form>form>button{
+	border: none;
+	border-radius: 10px;
+	width: 200px;
+	color: white;
+	background-color: #007BFF;
+	padding: .5rem;
+	margin-left: 20px;
+}
+.login-form>form>button:hover{
+	box-shadow: 0 0 5px #007BFF;
+}
+.login-link{
+	padding: 5px;
+}
+.fa-vk{
+	color: #2787F5;
+	font-size: 35px;
+	margin:0 5px;	
+}
+.fa-discord{
+	color: #36393F;
+	font-size: 35px;
+	margin:0 5px;
+}
+.fa-steam{
+	color: #C5C3C0;
+	font-size: 35px;
+	margin:0 5px;
+}
+.fa-instagram{
+	color: #DD3170;
+	font-size: 35px;
+	margin:0 5px;	
+}
